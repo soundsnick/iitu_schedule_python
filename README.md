@@ -19,11 +19,12 @@ Example:
 ``` python
 # example.py
 from iitu_schedule_python import schedule
+
 courses = schedule.getCourses()
 print(courses)
 ```
 ``` sh
-python3 example.py
+$ python3 example.py
 {'status': 0, 'error_message': None, 'result': [1, 2, 3, 4]}
 ```
 
@@ -86,4 +87,4 @@ Used to find left time to lesson.
 
 ## Author
 VK: [Yernazar Askarovich](https://vk.com/id308337291)
-Gmail: [mailto:soundsnick@gmail.com](soundsnick@gmail.com)
+Gmail: [soundsnick@gmail.com](mailto:soundsnick@gmail.com)
